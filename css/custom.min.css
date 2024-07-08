@@ -1,0 +1,35 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff00;
+    /* Change this to the desired background color */
+    padding: 20px;
+    /* Adjust padding as needed */
+    border-radius: 10px;
+    /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Optional: add a shadow for better visibility */
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    /* Ensure the logo scales responsively */
+    height: auto;
+    /* Maintain aspect ratio */
+    width: 1000px;
+    /* Change this to make the logo bigger or smaller */
+    object-fit: contain;
+    /* Ensure the logo fits within the container */
+}
+
+.footer-icons img {
+    width: 34px;
+    height: 34px;
+}
+
+.full-nav-icons img {
+    width: 34px;
+    height: 34px;
+}
