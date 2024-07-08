@@ -15,13 +15,12 @@
 
 .img-fluid {
     max-width: 100%;
-    /* Ensure the logo scales responsively */
+
     height: auto;
-    /* Maintain aspect ratio */
+
     width: 1000px;
-    /* Change this to make the logo bigger or smaller */
+
     object-fit: contain;
-    /* Ensure the logo fits within the container */
 }
 
 .footer-icons img {
@@ -32,4 +31,31 @@
 .full-nav-icons img {
     width: 34px;
     height: 34px;
+}
+
+.item-holder {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.filtr-item img {
+    display: block;
+    width: 100%;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.filtr-item:hover img {
+    transform: translateX(10px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.img-portfolio-fluid {
+    max-width: 100%;
+
+    height: auto;
+
+    width: 50px;
+
+    object-fit: contain;
 }
