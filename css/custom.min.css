@@ -50,12 +50,12 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.img-portfolio-fluid img {
+.img-portfolio-fluid {
     max-width: 100%;
 
     height: auto;
 
-    width: 100px;
+    width: 200px;
 
     object-fit: contain;
 }
