@@ -3,13 +3,12 @@
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    /* Change this to the desired background color */
+
     padding: 20px;
-    /* Adjust padding as needed */
+
     border-radius: 10px;
-    /* Optional: add rounded corners */
+
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Optional: add a shadow for better visibility */
 
 }
 
